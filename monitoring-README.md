@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/c1f94cf8-4fc9-4b77-a3d2-147671894ade
+
 # Monitoring (Netdata / Prometheus /Grafana /
 
 This secction documents my monitoring setup.
@@ -121,6 +125,11 @@ inside Grafana:
 4. Set URL:
    * htpp://localhost:9090
 5. Click **Save & test**
+
+
+
+https://github.com/user-attachments/assets/8dd0e4c6-aca5-416e-8be4-4f404c3e2cda
+
 
 
 <img width="1905" height="899" alt="image" src="https://github.com/user-attachments/assets/3bcb7acf-99a7-472f-ae97-456d0d8acf07" />
