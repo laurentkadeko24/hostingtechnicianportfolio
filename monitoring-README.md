@@ -36,7 +36,7 @@ This repository documents the installation and configuration of a full monitorin
 
 This setup provides complete visibility into server performance, WordPress behavior, and system health.
 
-🏗️ ##Architecture
+🏗️ ## Architecture
 
 [WordPress / Linux Server]
    ├─ Node Exporter → Prometheus
@@ -65,7 +65,7 @@ prometheus runs on:
 http://localhost:9090
 
 
-🖥️##Install Node Exporter
+🖥️## Install Node Exporter
 Noe exporter provides CPU, RAM, disk, network, and system metrics.
 
 **Fixing the "prometheus users exists" issue**
