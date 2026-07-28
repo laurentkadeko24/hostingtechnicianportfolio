@@ -54,16 +54,12 @@ This setup provides complete visibility into server performance, WordPress behav
 [GitHub]
    └─ Stores configs + dashboards
 
-
 🚀## Install Prometheus 
 Prometheus is the core of monitoring stack.
 apt update && apt install prometheus 
 
 **Verify Prometheus**
 systemctl status prometheus 
-prometheus runs on:
-http://localhost:9090
-
 
 🖥️## Install Node Exporter
 Noe exporter provides CPU, RAM, disk, network, and system metrics.
@@ -78,8 +74,6 @@ sudo apt install prometheus-node-exporter
 **Verify**
 sudo systemctl status prometheus-node-exporter
 
-**Node exporter runs on:**
-http://server-ip:9100/metrics
 
 ##Configure Prometheus to screpe Node Exporter
 
