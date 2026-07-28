@@ -109,7 +109,7 @@ Grafana runs on: http://server-ip:3000
 * Password: admin
   * (You will be asked to set a new password)
 
-## Connect Grafana to Proetheus
+## Connect Grafana to Prometheus
 
 inside Grafana:
 
@@ -119,3 +119,6 @@ inside Grafana:
 4. Set URL:
    * htpp://localhost:9090
 5. Click **Save & test**
+
+<img width="1905" height="899" alt="image" src="https://github.com/user-attachments/assets/3bcb7acf-99a7-472f-ae97-456d0d8acf07" />
+
