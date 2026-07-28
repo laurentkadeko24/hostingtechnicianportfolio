@@ -120,6 +120,9 @@ inside Grafana:
    * htpp://localhost:9090
 5. Click **Save & test**
 
+
+<img width="1905" height="899" alt="image" src="https://github.com/user-attachments/assets/3bcb7acf-99a7-472f-ae97-456d0d8acf07" />
+
 <img width="1902" height="859" alt="image" src="https://github.com/user-attachments/assets/9809c6c7-b259-4680-b464-5310506d42ca" />
 
 <img width="1904" height="900" alt="image" src="https://github.com/user-attachments/assets/05d48b26-e18c-4b88-863e-06789bf9479a" />
@@ -127,5 +130,4 @@ inside Grafana:
 <img width="1886" height="890" alt="image" src="https://github.com/user-attachments/assets/0df3cc9a-02e6-4b62-b4e0-9b8ec63e880d" />
 
 
-<img width="1905" height="899" alt="image" src="https://github.com/user-attachments/assets/3bcb7acf-99a7-472f-ae97-456d0d8acf07" />
 
