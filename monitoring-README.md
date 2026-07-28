@@ -138,6 +138,13 @@ https://github.com/user-attachments/assets/20d66da7-2114-48e1-91d2-349f0113c512
 
 https://github.com/user-attachments/assets/a665773b-8455-4721-896b-e9fb8d81a473
 
+## Connecting Node Exporter to Prometheus
+
+
+https://github.com/user-attachments/assets/1326f442-0395-4e36-bcc8-980ad79e8a3f
+
+
+
 
 <img width="1905" height="899" alt="image" src="https://github.com/user-attachments/assets/3bcb7acf-99a7-472f-ae97-456d0d8acf07" />
 
