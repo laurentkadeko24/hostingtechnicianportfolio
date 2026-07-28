@@ -133,6 +133,12 @@ https://github.com/user-attachments/assets/8dd0e4c6-aca5-416e-8be4-4f404c3e2cda
 
 https://github.com/user-attachments/assets/20d66da7-2114-48e1-91d2-349f0113c512
 
+##Node Exporter
+
+
+https://github.com/user-attachments/assets/a665773b-8455-4721-896b-e9fb8d81a473
+
+
 <img width="1905" height="899" alt="image" src="https://github.com/user-attachments/assets/3bcb7acf-99a7-472f-ae97-456d0d8acf07" />
 
 <img width="1902" height="859" alt="image" src="https://github.com/user-attachments/assets/9809c6c7-b259-4680-b464-5310506d42ca" />
