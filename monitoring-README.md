@@ -17,4 +17,105 @@ This secction documents my monitoring setup.
 ## skills shown 
 - Obeservability fundamentals
 - Performance troubleshooting
-- Service health monitoring 
+- Service health monitoring
+
+  -------------------------------------------------------------------------------------
+
+
+**Overview**
+This repository documents the installation and configuration of a full monitoring stack consisting of:
+ * **Prometheus** - TIme-series metrics database
+ * **Node Exprter** - Linux system metrics
+ * **Grafana** - Dashboards & visualization
+ * **Optional**: WordPress metrics, MySQL metrics, PHP-FPM metrics
+
+This setup provides complete visibility into server performance, WordPress behavior, and system health.
+
+🏗️ ##Architecture
+
+[WordPress / Linux Server]
+   ├─ Node Exporter → Prometheus
+   ├─ Netdata → Prometheus (optional)
+   ├─ MySQL Exporter → Prometheus (optional)
+   ├─ PHP-FPM Exporter → Prometheus (optional)
+   └─ WordPress Prometheus Plugin → Prometheus (optional)
+
+[Prometheus Server]
+   └─ Prometheus → Grafana
+
+[Grafana Server]
+   └─ Dashboards + Alerts
+
+[GitHub]
+   └─ Stores configs + dashboards
+
+
+🚀##Install Prometheus 
+Prometheus is the core of monitoring stack.
+apt update && apt install prometheus 
+
+**Verify Prometheus**
+systemctl status prometheus 
+prometheus runs on:
+http://localhost:9090
+
+
+🖥️##install Node Exporter
+Noe exporter provides CPU, RAM, disk, network, and system metrics.
+
+**Fixing the "prometheus users exists" issue**
+if you previously had a non-system user named prometheus, remove it:
+sudo deluser --remove-home prometheus
+
+**install Node Exporter**
+sudo apt install prometheus-node-exporter 
+
+**Verify**
+sudo systemctl status prometheus-node-exporter
+
+**Node exporter runs on:**
+http://server-ip:9100/metrics
+
+## Configure Prometheus to screpe Node Exporter
+
+Edit prometheus config:
+nano /etc/prometheus/prometheus.yml
+
+**Add**
+  - job_name: 'node'
+    static_configs:
+      - targets: ['<server-ip>:9100']
+   
+**Reload Prometheus**
+sudo systemtl restart prometheus
+
+## Install Grafana
+
+Grafana visualizes metrics
+
+**Install Grafana**
+
+sudo apt install grafana
+
+**Enable and start grafana**
+sudo systemctl daemon-reload
+sudo systemctl enable grafana-server
+sudo systemctl start grafana-server
+
+Grafana runs on: http://server-ip:3000
+
+ **Deault login**
+* Username: admin
+* Password: admin
+  * (You will be asked to set a new password)
+
+## Connect Grafana to Proetheus
+
+inside Grafana:
+
+1. Go to **Configuration --> Data sources**
+2. Click **Add data sources**
+3. Select **Prometheus**
+4. Set URL:
+   * htpp://localhost:9090
+5. Click **Save & test**
