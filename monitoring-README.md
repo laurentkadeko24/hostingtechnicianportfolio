@@ -2,7 +2,7 @@
 
 This secction documents my monitoring setup.
 
-## Compinents
+## Components
 - Netdata (real-time  monitoring)
 - Prometheus (metrics collection)
 - Grafana (dashboards)
@@ -24,9 +24,11 @@ This secction documents my monitoring setup.
 
 **Overview**
 This repository documents the installation and configuration of a full monitoring stack consisting of:
- * **Prometheus** - TIme-series metrics database
+ * **Prometheus** - TIme-series metrics
+ * database
  * **Node Exprter** - Linux system metrics
- * **Grafana** - Dashboards & visualization
+ * **Grafana** - Dashboards &
+ * visualization
  * **Optional**: WordPress metrics, MySQL metrics, PHP-FPM metrics
 
 This setup provides complete visibility into server performance, WordPress behavior, and system health.
