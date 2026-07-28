@@ -125,7 +125,7 @@ inside Grafana:
    * htpp://localhost:9090
 5. Click **Save & test**
 
-
+## Installing and configuring prometheus
 
 https://github.com/user-attachments/assets/8dd0e4c6-aca5-416e-8be4-4f404c3e2cda
 
