@@ -129,11 +129,11 @@ inside Grafana:
 
 https://github.com/user-attachments/assets/8dd0e4c6-aca5-416e-8be4-4f404c3e2cda
 
-##Prometheus 
+## Prometheus 
 
 https://github.com/user-attachments/assets/20d66da7-2114-48e1-91d2-349f0113c512
 
-##Node Exporter
+## Node Exporter
 
 
 https://github.com/user-attachments/assets/a665773b-8455-4721-896b-e9fb8d81a473
