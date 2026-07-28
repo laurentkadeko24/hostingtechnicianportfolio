@@ -31,7 +31,7 @@ This repository documents the installation and configuration of a full monitorin
 
 This setup provides complete visibility into server performance, WordPress behavior, and system health.
 
-🏗️ ##Architecture
+🏗️ ## Architecture
 
 [WordPress / Linux Server]
    ├─ Node Exporter → Prometheus
@@ -50,7 +50,7 @@ This setup provides complete visibility into server performance, WordPress behav
    └─ Stores configs + dashboards
 
 
-🚀##Install Prometheus 
+🚀## Install Prometheus 
 Prometheus is the core of monitoring stack.
 apt update && apt install prometheus 
 
@@ -60,14 +60,14 @@ prometheus runs on:
 http://localhost:9090
 
 
-🖥️##install Node Exporter
+🖥️## Install Node Exporter
 Noe exporter provides CPU, RAM, disk, network, and system metrics.
 
 **Fixing the "prometheus users exists" issue**
 if you previously had a non-system user named prometheus, remove it:
 sudo deluser --remove-home prometheus
 
-**install Node Exporter**
+**Install Node Exporter**
 sudo apt install prometheus-node-exporter 
 
 **Verify**
