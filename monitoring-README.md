@@ -1,7 +1,3 @@
-
-
-https://github.com/user-attachments/assets/c1f94cf8-4fc9-4b77-a3d2-147671894ade
-
 # Monitoring (Netdata / Prometheus /Grafana /
 
 This secction documents my monitoring setup.
