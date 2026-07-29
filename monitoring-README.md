@@ -14,7 +14,7 @@ This secction documents my monitoring setup.
 ## What I demonstrate 
 - Installing monitoring tools
 - Tracking CPU, RAM, disk, network
-- Montitoring PHP-FPm and postfix
+- Montitoring PHP-FPM and postfix
 - Creating dashboards
 
 ## skills shown 
