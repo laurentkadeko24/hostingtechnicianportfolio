@@ -1,4 +1,4 @@
-# WordPress Hosting (PHP-FPM + WO-CLI)
+# WordPress Hosting (PHP-FPM + WP-CLI)
 
 This section documents my WordPress hosting environment.
 
