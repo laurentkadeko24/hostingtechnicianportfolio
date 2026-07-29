@@ -29,7 +29,7 @@ This secction documents my monitoring setup.
 This repository documents the installation and configuration of a full monitoring stack consisting of:
  * **Prometheus** - TIme-series metrics
  * database
- * **Node Exprter** - Linux system metrics
+ * **Node Exporter** - Linux system metrics
  * **Grafana** - Dashboards &
  * visualization
  * **Optional**: WordPress metrics, MySQL metrics, PHP-FPM metrics
@@ -100,8 +100,6 @@ sudo apt install grafana
 sudo systemctl daemon-reload
 sudo systemctl enable grafana-server
 sudo systemctl start grafana-server
-
-Grafana runs on: http://server-ip:3000
 
  **Deault login**
 * Username: admin
